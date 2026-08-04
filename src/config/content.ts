@@ -5,7 +5,6 @@ export const siteConfig = {
   social: {
     github: "#",
     twitter: "#",
-    email: "mailto:raphael.northoff@outlook.de",
   },
 };
 
@@ -113,10 +112,10 @@ export const aboutContent = {
   connect: {
     title: "Let's Connect",
     description:
-      "Feel free to reach out if you want to collaborate or just say hi! You can drop me an",
+      "Feel free to reach out if you want to collaborate or just say hi! You can contact me via my social profiles.",
     email: {
-      text: "email",
-      href: "mailto:raphael.northoff@outlook.de",
+      text: "",
+      href: "#",
     },
   },
 };
