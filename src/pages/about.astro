@@ -173,6 +173,44 @@ import { aboutContent } from "../config/content.ts";
                 ))
               }
             </div>
+
+            <h2 class="mb-2 mt-12 text-2xl font-bold dark:text-neutral-200">
+              {aboutContent.education.title}
+            </h2>
+            <div class="py-10">
+              {
+                aboutContent.education.items.map((item) => (
+                  <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+                    <div class="relative flex flex-col justify-start pl-12">
+                      <div class="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
+                        <svg
+                          class="w-8 h-8 text-neutral-700 dark:text-neutral-300"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="M12 14l9-5-9-5-9 5 9 5z M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z M12 14v5 M12 14V9"
+                          />
+                        </svg>
+                      </div>
+                      <p class="text-xs uppercase text-neutral-400 dark:text-neutral-500 tracking-widest">
+                        {item.period}
+                      </p>
+                      <h3 class="my-1 text-lg font-bold dark:text-neutral-100">
+                        {item.degree}
+                      </h3>
+                      <p class="text-sm font-medium dark:text-neutral-300">
+                        {item.institution}
+                      </p>
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
           </div>
 
           <div class="w-[360px] ml-8">
@@ -192,6 +230,24 @@ import { aboutContent } from "../config/content.ts";
                 </a>
                 .
               </p>
+            </div>
+            
+            <h2 class="mb-2 mt-8 text-2xl font-bold dark:text-neutral-200">
+              {aboutContent.hobbies.title}
+            </h2>
+            <div class="py-[30px]">
+              <ul class="space-y-4">
+                {
+                  aboutContent.hobbies.items.map((hobby) => (
+                    <li class="flex items-start">
+                      <svg class="w-5 h-5 mt-1 mr-3 text-indigo-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+                      <span class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:text-base">{hobby}</span>
+                    </li>
+                  ))
+                }
+              </ul>
             </div>
           </div>
         </div>

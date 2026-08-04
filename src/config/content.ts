@@ -76,6 +76,40 @@ export const aboutContent = {
       },
     ],
   },
+  education: {
+    title: "Education",
+    items: [
+      {
+        period: "Sep 2025 - Oct 2026 (expected)",
+        degree: "Professional Master (Automation of Intelligent Systems)",
+        institution: "École Centrale de Lyon, France",
+      },
+      {
+        period: "Oct 2024 - Mar 2027 (expected)",
+        degree: "M.Sc. Industrial Engineering (Automation)",
+        institution: "TU Darmstadt, Germany",
+      },
+      {
+        period: "Oct 2020 - Sep 2024",
+        degree: "B.Eng. Industrial Engineering",
+        institution: "TH Augsburg, Germany",
+      },
+      {
+        period: "Oct 2011 - Mar 2020",
+        degree: "High School Diploma (Abitur)",
+        institution: "Max Slevogt Gymnasium Landau, Germany",
+      },
+    ],
+  },
+  hobbies: {
+    title: "Hobbies & Interests",
+    items: [
+      "Rugby (Regional League)",
+      "Tennis (Regular training)",
+      "Trekking (GR20, Mont Blanc, Zugspitze)",
+      "Bilingual: German & French. Fluent: English",
+    ],
+  },
   connect: {
     title: "Let's Connect",
     description:
@@ -100,21 +134,7 @@ export const projectsContent = {
       title: "Project One",
       description:
         "A brief description of your first project. Explain what it does and what technologies you used.",
-      image: "/assets/images/projects/project1.jpg",
-      href: "#",
-    },
-    {
-      title: "Project Two",
-      description:
-        "Describe your second project here. Highlight the key features and your role in development.",
-      image: "/assets/images/projects/project2.jpg",
-      href: "#",
-    },
-    {
-      title: "Project Three",
-      description:
-        "Share details about your third project. What problems did it solve? What was the outcome?",
-      image: "/assets/images/projects/project3.png",
+      image: "/Portfolio-CV-Blog/assets/images/projects/project1.jpg",
       href: "#",
     },
   ],
