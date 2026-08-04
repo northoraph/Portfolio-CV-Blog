@@ -7,8 +7,7 @@ Personal website
 
 ### Template:
 
-``` https://github.com/tomcomtang/astro-multiplepage-portfolio.git
-```
+```https://github.com/tomcomtang/astro-multiplepage-portfolio.git```
 
 
 
