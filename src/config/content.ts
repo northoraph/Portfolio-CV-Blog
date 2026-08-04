@@ -16,16 +16,16 @@ export const homeContent = {
   buttons: {
     about: {
       text: "View About",
-      href: "/about/",
+      href: "/Portfolio-CV-Blog/about/",
     },
     posts: {
       text: "Read Posts",
-      href: "/posts/",
+      href: "/Portfolio-CV-Blog/posts/",
     },
   },
   images: {
     light: "https://multiplepage-portfolio.edgeone.app/assets/images/tech-background-light.svg",
-    dark: "/assets/images/tech-background-dark.svg",
+    dark: "/Portfolio-CV-Blog/assets/images/tech-background-dark.svg",
   },
 };
 
@@ -48,7 +48,7 @@ export const aboutContent = {
     "Linux (Bash)",
   ],
   image: {
-    src: "/assets/images/about/coder.jpg",
+    src: "/Portfolio-CV-Blog/assets/images/about/coder.jpg",
     alt: "Raphael Northoff",
   },
   experience: {
