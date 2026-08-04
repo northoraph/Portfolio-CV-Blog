@@ -22,3 +22,6 @@ dist/
 # logs
 *.log
 .edgeone/
+
+# Personal Dokuments
+Bewerbungsunterlagen/
