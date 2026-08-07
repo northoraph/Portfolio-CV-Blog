@@ -177,11 +177,11 @@ export const aboutContent = {
 
 export const coursesContent = {
   meta: {
-    title: "Courses - Raphael Northoff",
+    title: "Courses and Grades - Raphael Northoff",
     description:
       "Overview of the courses and modules from my Bachelor's at TH Augsburg, my Master's at TU Darmstadt and my double-degree year at École Centrale de Lyon.",
   },
-  title: "Courses & Modules",
+  title: "Courses and Grades",
   description:
     "A rough, thematic overview of the modules I've taken across my Bachelor's (TH Augsburg), Master's (TU Darmstadt) and double-degree year (École Centrale de Lyon). German modules are graded 1.0 (best) to 5.0 (fail); French modules are graded out of 20 (best) — grade equivalence to be added later.",
   categories: [
@@ -595,17 +595,52 @@ export const coursesContent = {
 
 export const projectsContent = {
   meta: {
-    title: "Projects - Your Portfolio",
-    description: "Showcase of my best work and projects",
+    title: "Projects - Raphael Northoff",
+    description: "A selection of engineering and control theory projects I'm working on and writing up.",
   },
-  title: "Our Projects",
+  title: "Projects",
   description:
-    "Here you can showcase your best work. Each project should include a brief description, the technologies used, and any notable achievements. This helps potential clients or employers understand your capabilities.",
+    "A selection of projects I'm working on. These are still rough — I'll be writing each one up in more detail over time.",
   projects: [
     {
-      title: "Project One",
+      title: "Solar Roof Potential",
       description:
-        "A brief description of your first project. Explain what it does and what technologies you used.",
+        "My Bachelor's thesis: estimating a building's rooftop solar potential from its geometry and orientation.",
+      image: "/Portfolio-CV-Blog/assets/images/projects/solar-roof-potential.jpg",
+      href: "#",
+    },
+    {
+      title: "Estimator Performance — A Monte Carlo Analysis",
+      description:
+        "Comparing estimator performance through Monte Carlo simulation of the bias-variance tradeoff.",
+      image: "/Portfolio-CV-Blog/assets/images/projects/estimator-monte-carlo.jpg",
+      href: "#",
+    },
+    {
+      title: "VTOLs in Flight Transition",
+      description:
+        "Studying the transition phase between hover and forward flight for a hybrid VTOL aircraft.",
+      image: "/Portfolio-CV-Blog/assets/images/projects/vtol-flight-transition.jpg",
+      href: "#",
+    },
+    {
+      title: "Sensor Modelling",
+      description:
+        "Modelling sensor behaviour and measurement uncertainty for control and estimation applications.",
+      image: "/Portfolio-CV-Blog/assets/images/projects/sensor-modelling.jpg",
+      href: "#",
+    },
+    {
+      title: "Pontryagin's Minimum Principle for Orbit Transfer",
+      description:
+        "Using Pontryagin's minimum principle to design an optimal-control trajectory to move a spacecraft between orbits.",
+      image: "/Portfolio-CV-Blog/assets/images/projects/pontryagin-orbit-transfer.jpg",
+      href: "#",
+    },
+    {
+      title: "Control Theory in Finance",
+      description:
+        "Exploring control-theoretic approaches to modelling and decision-making in financial markets.",
       image: "/Portfolio-CV-Blog/assets/images/projects/project1.jpg",
       href: "#",
     },
