@@ -23,8 +23,7 @@ export const homeContent = {
     },
   },
   images: {
-    light: "https://multiplepage-portfolio.edgeone.app/assets/images/tech-background-light.svg",
-    dark: "/Portfolio-CV-Blog/assets/images/tech-background-dark.svg",
+    light: "/Portfolio-CV-Blog/assets/images/hero.jpg",
   },
 };
 
@@ -107,6 +106,62 @@ export const aboutContent = {
       "Tennis (Regular training)",
       "Trekking (GR20, Mont Blanc, Zugspitze)",
       "Bilingual: German & French. Fluent: English",
+    ],
+  },
+  competencies: {
+    title: "Core Competencies",
+    description:
+      "A closer look at the experience behind my CV: how I work, what I've built, and what I do outside of engineering.",
+    items: [
+      {
+        title: "Control & Automation Engineering",
+        description:
+          "Trajectory tracking control for a hybrid UAV in my Master's thesis, implemented in the PX4 flight stack with ROS 2, Python and C++, covering the full cycle from simulation and experiment design to flight testing and log analysis.",
+      },
+      {
+        title: "Model-Based Validation & Standards",
+        description:
+          "Developed and validated a MATLAB/Simulink model of a power measurement system against IEC 61557-12 at Schneider Electric, validating the system architecture before prototype manufacturing in a cross-disciplinary team.",
+      },
+      {
+        title: "Project & Risk Management",
+        description:
+          "Ran FMEA-based risk analyses and coordinated Factory Acceptance Tests with international naval customers for maritime gearbox projects at Renk AG.",
+      },
+      {
+        title: "Renewable Energy & Grids",
+        description:
+          "My Bachelor's thesis, conducted with Stadtwerke München, evaluated the impact of photovoltaic expansion on urban power grids.",
+      },
+      {
+        title: "Entrepreneurship & Leadership",
+        description:
+          "Led a five-student team over five months on a market potential analysis for a high-tech innovation with TU Darmstadt's Institute of Microwave Engineering and Photonics, from scheduling to the final client presentation.",
+        link: {
+          text: "Read more about the project →",
+          href: "/Portfolio-CV-Blog/posts/terahertz-project/",
+        },
+      },
+      {
+        title: "Robotics",
+        description:
+          "Helped build the ROS 2 control framework for DARE Robotics Club's self-built robotic arm, covering both autonomous mission execution and joystick teleoperation.",
+      },
+      {
+        title: "Financial Markets",
+        description:
+          "Active member of the university trading teams at both TH Augsburg and TU Darmstadt, alongside hands-on trading experience and workshops on derivative and company valuation.",
+      },
+      {
+        title: "Sales & Customer Outreach",
+        description:
+          "Independent sales experience ranging from door-to-door sales to handling customer outreach and order fulfillment for a small honey business.",
+      },
+      {
+        title: "Sailing",
+        description:
+          "Hold a Permis Côtier (French coastal boating license) and completed several sailing courses in France.",
+      },
     ],
   },
   connect: {

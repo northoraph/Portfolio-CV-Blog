@@ -244,6 +244,39 @@ import { aboutContent } from "../config/content.ts";
             </div>
           </div>
         </div>
+
+        <div class="mt-20">
+          <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">
+            {aboutContent.competencies.title}
+          </h2>
+          <p
+            class="mt-2 text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+          >
+            {aboutContent.competencies.description}
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+            {
+              aboutContent.competencies.items.map((item) => (
+                <div class="flex flex-col p-5 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white/50 dark:bg-neutral-800/50">
+                  <h3 class="text-base font-bold text-neutral-900 dark:text-neutral-100">
+                    {item.title}
+                  </h3>
+                  <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
+                    {item.description}
+                  </p>
+                  {item.link && (
+                    <a
+                      href={item.link.href}
+                      class="mt-3 text-sm font-medium text-neutral-900 dark:text-neutral-100 hover:underline"
+                    >
+                      {item.link.text}
+                    </a>
+                  )}
+                </div>
+              ))
+            }
+          </div>
+        </div>
       </section>
     </div>
 
