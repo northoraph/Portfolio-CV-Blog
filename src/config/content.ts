@@ -184,11 +184,11 @@ export const aboutContent = {
 
 export const coursesContent = {
   meta: {
-    title: "Courses and Grades - Raphael Northoff",
+    title: "Courses & Grades - Raphael Northoff",
     description:
       "Overview of the courses and modules from my Bachelor's at TH Augsburg, my Master's at TU Darmstadt and my double-degree year at École Centrale de Lyon.",
   },
-  title: "Courses and Grades",
+  title: "Courses & Grades",
   description:
     "A rough, thematic overview of the modules I've taken across my Bachelor's (TH Augsburg), Master's (TU Darmstadt) and double-degree year (École Centrale de Lyon). German modules are graded 1.0 (best) to 5.0 (fail); French modules are graded out of 20 (best) — grade equivalence to be added later.",
   categories: [
