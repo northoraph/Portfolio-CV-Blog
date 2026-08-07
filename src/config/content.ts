@@ -58,6 +58,7 @@ export const aboutContent = {
         company: "Institute for Flight Dynamics and Control, Darmstadt",
         description:
           "Design and implementation of trajectory tracking control for a hybrid UAV using PX4, ROS 2, Python and C++.",
+        logo: "/Portfolio-CV-Blog/assets/images/logos/tu-darmstadt.svg",
       },
       {
         period: "Apr 2024 - Aug 2024",
@@ -65,12 +66,14 @@ export const aboutContent = {
         company: "Schneider Electric SE, Grenoble",
         description:
           "Developed and validated a MATLAB/Simulink model for IEC 61557-12 compliant power measurement systems.",
+        logo: "/Portfolio-CV-Blog/assets/images/logos/schneider-electric.svg",
       },
       {
         period: "Aug 2022 - Mar 2023",
         position: "Project Management Assistant",
         company: "Renk AG, Augsburg",
         description: "Coordinated customer communication, FATs and engineering documentation for maritime gearbox projects.",
+        logo: "/Portfolio-CV-Blog/assets/images/logos/renk-ag.svg",
       },
     ],
   },
@@ -81,21 +84,25 @@ export const aboutContent = {
         period: "Sep 2025 - Oct 2026 (expected)",
         degree: "Professional Master (Automation of Intelligent Systems)",
         institution: "École Centrale de Lyon, France",
+        logo: "/Portfolio-CV-Blog/assets/images/logos/ecole-centrale-lyon.png",
       },
       {
         period: "Oct 2024 - Mar 2027 (expected)",
         degree: "M.Sc. Industrial Engineering (Automation)",
         institution: "TU Darmstadt, Germany",
+        logo: "/Portfolio-CV-Blog/assets/images/logos/tu-darmstadt.svg",
       },
       {
         period: "Oct 2020 - Sep 2024",
         degree: "B.Eng. Industrial Engineering",
         institution: "TH Augsburg, Germany",
+        logo: "/Portfolio-CV-Blog/assets/images/logos/th-augsburg.png",
       },
       {
         period: "Oct 2011 - Mar 2020",
         degree: "High School Diploma (Abitur)",
         institution: "Max Slevogt Gymnasium Landau, Germany",
+        logo: "/Portfolio-CV-Blog/assets/images/logos/max-slevogt-gymnasium.png",
       },
     ],
   },
