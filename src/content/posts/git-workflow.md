@@ -3,7 +3,7 @@ title: "Effective Git Workflow Strategies"
 description: "Master Git workflows and collaboration patterns for team development"
 date: "2024-03-28"
 readTime: "5 min read"
-image: "/assets/images/posts/post3.jpg"
+image: "/Portfolio-CV-Blog/assets/images/posts/post3.jpg"
 slug: "git-workflow"
 ---
 

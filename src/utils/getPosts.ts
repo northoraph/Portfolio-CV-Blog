@@ -51,9 +51,9 @@ export function getAllPosts(): Post[] {
       description: frontmatter.description || '',
       date: frontmatter.date || '',
       readTime: frontmatter.readTime || '5 min read',
-      image: frontmatter.image || '/assets/images/posts/post1.jpg',
+      image: frontmatter.image || '/Portfolio-CV-Blog/assets/images/posts/post1.jpg',
       slug: slug,
-      href: `/posts/${slug}`,
+      href: `/Portfolio-CV-Blog/posts/${slug}/`,
     });
   }
 
