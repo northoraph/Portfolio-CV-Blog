@@ -1,3 +1,11 @@
+export const supabaseConfig = {
+  // Create a free project at https://supabase.com, then paste the values
+  // from Project Settings -> API here. The anon/public key is safe to
+  // expose client-side; access is controlled by Row Level Security.
+  url: "https://mnuclaugwqlurfhyqmbh.supabase.co",
+  anonKey: "sb_publishable_Ew5ZEGB8PpU-_BpkiERuug_SWrBF1UW",
+};
+
 export const siteConfig = {
   name: "Raphael Northoff",
   title: "Raphael Northoff's Portfolio",
