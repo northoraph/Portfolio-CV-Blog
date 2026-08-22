@@ -618,10 +618,10 @@ export const projectsContent = {
     "A selection of projects I'm working on. These are still rough — I'll be writing each one up in more detail over time.",
   projects: [
     {
-      title: "Solar Roof Potential",
+      title: "Photovoltaics & Urban Power Grids",
       description:
-        "My Bachelor's thesis: estimating a building's rooftop solar potential from its geometry and orientation.",
-      image: "/Portfolio-CV-Blog/assets/images/projects/solar-roof-potential.jpg",
+        "My Bachelor's thesis with Stadtwerke München: simulating PV power generation and assessing the impact of rooftop-solar expansion on Munich's distribution grid.",
+      image: "/Portfolio-CV-Blog/assets/images/projects/solar-roof-potential.png",
       href: "#",
     },
     {
@@ -639,17 +639,24 @@ export const projectsContent = {
       href: "#",
     },
     {
-      title: "Sensor Modelling",
+      title: "IEC 61557-12 Sensor Modelling",
       description:
-        "Modelling sensor behaviour and measurement uncertainty for control and estimation applications.",
-      image: "/Portfolio-CV-Blog/assets/images/projects/sensor-modelling.jpg",
+        "Schneider Electric internship: Simulink/Stateflow model of a wireless power-measurement sensor's operating modes, balancing accuracy against energy consumption.",
+      image: "/Portfolio-CV-Blog/assets/images/projects/sensor-modelling.png",
       href: "#",
     },
     {
       title: "Pontryagin's Minimum Principle for Orbit Transfer",
       description:
-        "Using Pontryagin's minimum principle to design an optimal-control trajectory to move a spacecraft between orbits.",
-      image: "/Portfolio-CV-Blog/assets/images/projects/pontryagin-orbit-transfer.jpg",
+        "Optimal low-thrust transfer maximizing the final orbit radius in fixed time — Hamiltonian derivation, TPBVP solved in MATLAB, with tf and thrust sensitivity studies.",
+      image: "/Portfolio-CV-Blog/assets/images/projects/pontryagin-orbit-transfer.png",
+      href: "#",
+    },
+    {
+      title: "Automated Indoor Chili Farm",
+      description:
+        "Arduino-controlled ebb-and-flow hydroponics in Simulink: pH/EC probes, water level & temperature, grow lamps, nutrient dosing and a live dashboard.",
+      image: "/Portfolio-CV-Blog/assets/images/projects/chili-farm.png",
       href: "#",
     },
     {
