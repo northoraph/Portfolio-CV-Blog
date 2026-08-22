@@ -30,8 +30,9 @@ export const homeContent = {
       href: "/Portfolio-CV-Blog/posts/",
     },
   },
-  images: {
-    light: "/Portfolio-CV-Blog/assets/images/hero.jpg",
+  video: {
+    src: "/Portfolio-CV-Blog/assets/videos/hero.webm",
+    poster: "/Portfolio-CV-Blog/assets/images/hero.jpg",
   },
 };
 
@@ -54,7 +55,7 @@ export const aboutContent = {
     "Linux (Bash)",
   ],
   image: {
-    src: "/Portfolio-CV-Blog/assets/images/about/coder.jpg",
+    src: "/Portfolio-CV-Blog/assets/images/hero.jpg",
     alt: "Raphael Northoff",
   },
   experience: {

@@ -329,12 +329,17 @@ import { siteConfig, homeContent, supabaseConfig } from "../config/content.ts";
                 <div
                   class="relative overflow-hidden w-[240px] h-[240px] sm:w-[320px] sm:h-[320px] lg:w-[min(700px,45vw)] lg:h-[min(700px,70vh)] max-w-full"
                 >
-                  <img
-                    src={homeContent.images.light}
-                    alt="Raphael Northoff"
+                  <video
+                    src={homeContent.video.src}
+                    poster={homeContent.video.poster}
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    aria-label="Raphael Northoff"
                     class="w-full h-full object-cover rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
                     style="max-width: 100%; max-height: 100%;"
-                  />
+                  ></video>
                 </div>
               </div>
             </div>
