@@ -11,8 +11,7 @@ export const siteConfig = {
   title: "Raphael Northoff's Portfolio",
   description: "A showcase of my work and experience in Industrial & Control Engineering",
   social: {
-    github: "#",
-    twitter: "#",
+    github: "https://github.com/northoraph",
   },
 };
 
@@ -616,57 +615,6 @@ export const projectsContent = {
   },
   title: "Projects",
   description:
-    "A selection of projects I'm working on. These are still rough — I'll be writing each one up in more detail over time.",
-  projects: [
-    {
-      title: "Photovoltaics & Urban Power Grids",
-      description:
-        "My Bachelor's thesis with Stadtwerke München: simulating PV power generation and assessing the impact of rooftop-solar expansion on Munich's distribution grid.",
-      image: "/Portfolio-CV-Blog/assets/images/projects/solar-roof-potential.png",
-      href: "#",
-    },
-    {
-      title: "Estimator Performance — A Monte Carlo Analysis",
-      description:
-        "Comparing estimator performance through Monte Carlo simulation of the bias-variance tradeoff.",
-      image: "/Portfolio-CV-Blog/assets/images/projects/estimator-monte-carlo.jpg",
-      href: "#",
-    },
-    {
-      title: "VTOLs in Flight Transition",
-      description:
-        "Studying the transition phase between hover and forward flight for a hybrid VTOL aircraft.",
-      image: "/Portfolio-CV-Blog/assets/images/projects/vtol-flight-transition.jpg",
-      href: "#",
-    },
-    {
-      title: "IEC 61557-12 Sensor Modelling",
-      description:
-        "Schneider Electric internship: Simulink/Stateflow model of a wireless power-measurement sensor's operating modes, balancing accuracy against energy consumption.",
-      image: "/Portfolio-CV-Blog/assets/images/projects/sensor-modelling.png",
-      href: "#",
-    },
-    {
-      title: "Pontryagin's Minimum Principle for Orbit Transfer",
-      description:
-        "Optimal low-thrust transfer maximizing the final orbit radius in fixed time — Hamiltonian derivation, TPBVP solved in MATLAB, with tf and thrust sensitivity studies.",
-      image: "/Portfolio-CV-Blog/assets/images/projects/pontryagin-orbit-transfer.png",
-      href: "#",
-    },
-    {
-      title: "Automated Indoor Chili Farm",
-      description:
-        "Arduino-controlled ebb-and-flow hydroponics in Simulink: pH/EC probes, water level & temperature, grow lamps, nutrient dosing and a live dashboard.",
-      image: "/Portfolio-CV-Blog/assets/images/projects/chili-farm.png",
-      href: "#",
-    },
-    {
-      title: "Control Theory in Finance",
-      description:
-        "Exploring control-theoretic approaches to modelling and decision-making in financial markets.",
-      image: "/Portfolio-CV-Blog/assets/images/projects/project1.jpg",
-      href: "#",
-    },
-  ],
+    "A selection of projects I'm working on. The write-ups live in src/content/projects/ as markdown files.",
 };
 
