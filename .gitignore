@@ -29,3 +29,11 @@ Bewerbungsunterlagen/*
 Projects/
 Projects/*
 Bewerbungsunterlagen/
+# cached raw market data downloads
+.cache/
+
+# Videos -- bleiben lokal, nie wieder ins Repo
+public/assets/videos/
+*.webm
+*.mp4
+*.mov
